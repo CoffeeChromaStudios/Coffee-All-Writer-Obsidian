@@ -1,0 +1,26 @@
+
+/* Coffee All Writer – Estética CoffeeChroma */
+:root {
+  --caw-copper: #b87333;
+  --caw-gold: #f5d48a;
+  --caw-blue: #0e1a2b;
+  --caw-ink: #0a1522;
+  --caw-card: rgba(14,26,43,0.6);
+  --caw-border: rgba(245,212,138,0.35);
+}
+.caw-status { color: var(--caw-gold); }
+.caw-menu {
+  position: absolute; z-index: 9999; background: var(--caw-card);
+  border: 1px solid var(--caw-border); padding: 6px; border-radius: 12px;
+  backdrop-filter: blur(4px); box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+.caw-menu button {
+  background: transparent; color: var(--caw-gold);
+  border: 1px solid var(--caw-border); border-radius: 999px;
+  padding: 4px 10px; margin: 3px; cursor: pointer;
+}
+.caw-menu button:hover { background: rgba(245,212,138,0.08); }
+.caw-storyboard { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px,1fr)); gap: 12px; }
+.caw-card { background: var(--caw-card); border: 1px solid var(--caw-border); border-radius: 14px; padding: 10px; color: var(--caw-gold); }
+.caw-card h4 { margin: 0 0 6px 0; color: var(--caw-gold); }
+.caw-card p { margin: 0; color: #e6e0cf; }

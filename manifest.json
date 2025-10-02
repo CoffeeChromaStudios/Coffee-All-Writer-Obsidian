@@ -1,0 +1,10 @@
+{
+  "id": "coffee-all-writer",
+  "name": "Coffee All Writer",
+  "version": "1.0.4",
+  "minAppVersion": "1.3.5",
+  "description": "Formatação dinâmica de roteiros e escrita criativa + métricas offline (PT-BR/EN).",
+  "author": "CoffeeChroma Studios",
+  "authorUrl": "https://coffeechroma.example",
+  "isDesktopOnly": false
+}
